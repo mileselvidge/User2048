@@ -13,7 +13,10 @@ import SpriteKit
 class Board {
     let DIMENTION: Int = 4 // Specifies n * n board, where n is the dimention
     
-    var score, moveCount, attempt, turn: Int
+    var score = 0
+    var moveCount = 0
+    var attempt = 0
+    var turn = 0
     var board: [[Cell]]!
     var isAlive = true
     // var moves: [Int]! // for AI implementation
@@ -111,10 +114,10 @@ class Board {
         // attempts = 0
         // spawnCell()
         
-        print("Score: \(score)")
+        //print("Score: \(score)")
         isAlive = checkAlive()
         if(!isAlive) {
-            print("Game Over!")
+            //print("Game Over!")
         }
     }
     
@@ -129,7 +132,7 @@ class Board {
             score += board[p1.y][p1.x].value
         }
         
-        print("Cell at ",p.str," moved to ",p1.str)
+        //print("Cell at ",p.str," moved to ",p1.str)
         moveCount += 1
     }
     

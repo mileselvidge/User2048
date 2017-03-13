@@ -553,6 +553,7 @@
 				1291CA6D1E76E2FC0096E57D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1291CA6E1E76E2FC0096E57D /* Build configuration list for PBXNativeTarget "User2048Tests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +562,7 @@
 				1291CA701E76E2FC0096E57D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1291CA711E76E2FC0096E57D /* Build configuration list for PBXNativeTarget "User2048UITests" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +571,7 @@
 				1291CA731E76E2FC0096E57D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
